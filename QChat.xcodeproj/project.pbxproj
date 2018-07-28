@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		503A385821098DA7008BF18B /* ProfileSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A385721098DA7008BF18B /* ProfileSetupViewController.swift */; };
+		503A385D21099B21008BF18B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A385C21099B21008BF18B /* Constants.swift */; };
+		504DBDAA210ABFB200D843FC /* QUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504DBDA9210ABFB200D843FC /* QUser.swift */; };
+		504DBDB2210AC44500D843FC /* HHelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504DBDAC210AC44200D843FC /* HHelperFunctions.swift */; };
+		504DBDB3210AC44500D843FC /* FFUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504DBDAD210AC44300D843FC /* FFUser.swift */; };
+		504DBDB4210AC44500D843FC /* CCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504DBDAE210AC44400D843FC /* CCamera.swift */; };
+		504DBDB5210AC44500D843FC /* CConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504DBDAF210AC44400D843FC /* CConstants.swift */; };
+		504DBDB6210AC44500D843FC /* CCountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504DBDB0210AC44500D843FC /* CCountryCode.swift */; };
+		504DBDB7210AC44500D843FC /* FFCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504DBDB1210AC44500D843FC /* FFCollectionReference.swift */; };
+		504DBDB9210AD95200D843FC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504DBDB8210AD95200D843FC /* Helper.swift */; };
 		509B7EE82106F388009183D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B7EE72106F388009183D2 /* AppDelegate.swift */; };
-		509B7EEA2106F388009183D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B7EE92106F388009183D2 /* ViewController.swift */; };
+		509B7EEA2106F388009183D2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B7EE92106F388009183D2 /* SignInViewController.swift */; };
 		509B7EED2106F388009183D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509B7EEB2106F388009183D2 /* Main.storyboard */; };
 		509B7EEF2106F389009183D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509B7EEE2106F389009183D2 /* Assets.xcassets */; };
 		509B7EF22106F389009183D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509B7EF02106F389009183D2 /* LaunchScreen.storyboard */; };
+		50C7306B210837C8005AB4EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C7306A210837C8005AB4EF /* GoogleService-Info.plist */; };
+		50C7306D210840BD005AB4EF /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C7306C210840BD005AB4EF /* Alert.swift */; };
+		50C7306F210847F9005AB4EF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C7306E210847F9005AB4EF /* RegisterViewController.swift */; };
+		50F0180F210CE76F00F5103D /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F0180E210CE76F00F5103D /* HomeTabViewController.swift */; };
+		50F01811210CF01700F5103D /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F01810210CF01700F5103D /* Credits.swift */; };
+		AC2349CD8B1366B32466F39B /* Pods_QChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD65334D622E97E90387D7D9 /* Pods_QChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		503A385721098DA7008BF18B /* ProfileSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupViewController.swift; sourceTree = "<group>"; };
+		503A385C21099B21008BF18B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		504DBDA9210ABFB200D843FC /* QUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUser.swift; sourceTree = "<group>"; };
+		504DBDAC210AC44200D843FC /* HHelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHelperFunctions.swift; sourceTree = "<group>"; };
+		504DBDAD210AC44300D843FC /* FFUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFUser.swift; sourceTree = "<group>"; };
+		504DBDAE210AC44400D843FC /* CCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCamera.swift; sourceTree = "<group>"; };
+		504DBDAF210AC44400D843FC /* CConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CConstants.swift; sourceTree = "<group>"; };
+		504DBDB0210AC44500D843FC /* CCountryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCountryCode.swift; sourceTree = "<group>"; };
+		504DBDB1210AC44500D843FC /* FFCollectionReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFCollectionReference.swift; sourceTree = "<group>"; };
+		504DBDB8210AD95200D843FC /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		509B7EE42106F388009183D2 /* QChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509B7EE72106F388009183D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		509B7EE92106F388009183D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		509B7EE92106F388009183D2 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		509B7EEC2106F388009183D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		509B7EEE2106F389009183D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		509B7EF12106F389009183D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		509B7EF32106F389009183D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C7306A210837C8005AB4EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		50C7306C210840BD005AB4EF /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		50C7306E210847F9005AB4EF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		50F0180E210CE76F00F5103D /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		50F01810210CF01700F5103D /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+		729937BA8BCBDE75A467520D /* Pods-QChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-QChat/Pods-QChat.release.xcconfig"; sourceTree = "<group>"; };
+		AD65334D622E97E90387D7D9 /* Pods_QChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC599907CED3D0675BC909E7 /* Pods-QChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QChat/Pods-QChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2349CD8B1366B32466F39B /* Pods_QChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		503A385921099516008BF18B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				509B7EE92106F388009183D2 /* SignInViewController.swift */,
+				50C7306E210847F9005AB4EF /* RegisterViewController.swift */,
+				503A385721098DA7008BF18B /* ProfileSetupViewController.swift */,
+				50F0180E210CE76F00F5103D /* HomeTabViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		503A385A21099531008BF18B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				509B7EEB2106F388009183D2 /* Main.storyboard */,
+				509B7EF02106F389009183D2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		503A385B2109954A008BF18B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50C7306C210840BD005AB4EF /* Alert.swift */,
+				503A385C21099B21008BF18B /* Constants.swift */,
+				504DBDB8210AD95200D843FC /* Helper.swift */,
+				50F01810210CF01700F5103D /* Credits.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		503A385E2109A7EC008BF18B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				504DBDA9210ABFB200D843FC /* QUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		504DBDAB210AC42600D843FC /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				504DBDAE210AC44400D843FC /* CCamera.swift */,
+				504DBDAF210AC44400D843FC /* CConstants.swift */,
+				504DBDB0210AC44500D843FC /* CCountryCode.swift */,
+				504DBDB1210AC44500D843FC /* FFCollectionReference.swift */,
+				504DBDAD210AC44300D843FC /* FFUser.swift */,
+				504DBDAC210AC44200D843FC /* HHelperFunctions.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
 		509B7EDB2106F388009183D2 = {
 			isa = PBXGroup;
 			children = (
 				509B7EE62106F388009183D2 /* QChat */,
 				509B7EE52106F388009183D2 /* Products */,
+				FB996BD1DF5A10283D2D4E76 /* Pods */,
+				9FF7A6EBCBF8F9E97380C8D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +143,34 @@
 		509B7EE62106F388009183D2 /* QChat */ = {
 			isa = PBXGroup;
 			children = (
-				509B7EE72106F388009183D2 /* AppDelegate.swift */,
-				509B7EE92106F388009183D2 /* ViewController.swift */,
-				509B7EEB2106F388009183D2 /* Main.storyboard */,
+				504DBDAB210AC42600D843FC /* Tutorial */,
+				503A385E2109A7EC008BF18B /* Model */,
+				503A385921099516008BF18B /* Controller */,
+				503A385A21099531008BF18B /* View */,
+				503A385B2109954A008BF18B /* Supporting Files */,
 				509B7EEE2106F389009183D2 /* Assets.xcassets */,
-				509B7EF02106F389009183D2 /* LaunchScreen.storyboard */,
 				509B7EF32106F389009183D2 /* Info.plist */,
+				50C7306A210837C8005AB4EF /* GoogleService-Info.plist */,
+				509B7EE72106F388009183D2 /* AppDelegate.swift */,
 			);
 			path = QChat;
+			sourceTree = "<group>";
+		};
+		9FF7A6EBCBF8F9E97380C8D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD65334D622E97E90387D7D9 /* Pods_QChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB996BD1DF5A10283D2D4E76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC599907CED3D0675BC909E7 /* Pods-QChat.debug.xcconfig */,
+				729937BA8BCBDE75A467520D /* Pods-QChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 509B7EF62106F389009183D2 /* Build configuration list for PBXNativeTarget "QChat" */;
 			buildPhases = (
+				AE84CB36717FEA6579883D98 /* [CP] Check Pods Manifest.lock */,
 				509B7EE02106F388009183D2 /* Sources */,
 				509B7EE12106F388009183D2 /* Frameworks */,
 				509B7EE22106F388009183D2 /* Resources */,
+				4844300A8FFF10EC5D29E81C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				509B7EF22106F389009183D2 /* LaunchScreen.storyboard in Resources */,
+				50C7306B210837C8005AB4EF /* GoogleService-Info.plist in Resources */,
 				509B7EEF2106F389009183D2 /* Assets.xcassets in Resources */,
 				509B7EED2106F388009183D2 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +242,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4844300A8FFF10EC5D29E81C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QChat/Pods-QChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QChat/Pods-QChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE84CB36717FEA6579883D98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		509B7EE02106F388009183D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				509B7EEA2106F388009183D2 /* ViewController.swift in Sources */,
+				504DBDB6210AC44500D843FC /* CCountryCode.swift in Sources */,
+				504DBDB9210AD95200D843FC /* Helper.swift in Sources */,
+				504DBDB4210AC44500D843FC /* CCamera.swift in Sources */,
+				50C7306D210840BD005AB4EF /* Alert.swift in Sources */,
+				509B7EEA2106F388009183D2 /* SignInViewController.swift in Sources */,
 				509B7EE82106F388009183D2 /* AppDelegate.swift in Sources */,
+				50F01811210CF01700F5103D /* Credits.swift in Sources */,
+				503A385821098DA7008BF18B /* ProfileSetupViewController.swift in Sources */,
+				504DBDB3210AC44500D843FC /* FFUser.swift in Sources */,
+				50C7306F210847F9005AB4EF /* RegisterViewController.swift in Sources */,
+				504DBDAA210ABFB200D843FC /* QUser.swift in Sources */,
+				503A385D21099B21008BF18B /* Constants.swift in Sources */,
+				504DBDB2210AC44500D843FC /* HHelperFunctions.swift in Sources */,
+				504DBDB7210AC44500D843FC /* FFCollectionReference.swift in Sources */,
+				504DBDB5210AC44500D843FC /* CConstants.swift in Sources */,
+				50F0180F210CE76F00F5103D /* HomeTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +449,13 @@
 		};
 		509B7EF72106F389009183D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC599907CED3D0675BC909E7 /* Pods-QChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RL4386D4Z;
 				INFOPLIST_FILE = QChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +469,13 @@
 		};
 		509B7EF82106F389009183D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729937BA8BCBDE75A467520D /* Pods-QChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RL4386D4Z;
 				INFOPLIST_FILE = QChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
